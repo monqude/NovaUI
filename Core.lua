@@ -23,7 +23,7 @@ ns.defaults = {
 		showPercent = true,
 		style = "portrait",
 		absorbs = true,
-		personal = true,
+		personal = false,
 	},
 	castbars = {
 		enabled = true,
@@ -537,6 +537,11 @@ Nova:SetScript("OnEvent", function(self, event, arg1)
 			ns.db.unitframes.portraitIntro = true
 			ns.db.unitframes.style = "portrait"
 			ns.db.unitframes.classColor = true
+		end
+		-- v1.14.1: the personal bar is off by default; switch it off once.
+		if not ns.db.unitframes.personalOff then
+			ns.db.unitframes.personalOff = true
+			ns.db.unitframes.personal = false
 		end
 		ns.ApplyGlobalFont()
 		self:UnregisterEvent("ADDON_LOADED")

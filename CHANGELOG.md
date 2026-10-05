@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.14.1
+- Karakterin altındaki kişisel can/mana çubuğu varsayılan olarak kapalı (Ayarlar → Birimler'den açılabilir). / Personal health/power bar is now off by default.
+
 ## 1.14.0 — ilk herkese açık sürüm / first public release
 - Varsayılan yerleşim ve ayarlar yazarın kendi profili (`Layout.lua`). / Default layout and settings are the author's own setup.
 - `/nova tr` ve `/nova en` ile dil değiştirme. / Language switch commands.

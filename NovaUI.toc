@@ -3,7 +3,7 @@
 ## Notes: Minimal, modern interface for WoW Forever.
 ## Notes-trTR: WoW Forever için sade ve modern arayüz.
 ## Author: Lumex Yazılım
-## Version: 1.14.0
+## Version: 1.14.1
 ## SavedVariables: NovaUIDB, NovaUIProfiles
 ## IconTexture: Interface\Icons\Spell_Arcane_Arcane04
 ## Category: User Interface
