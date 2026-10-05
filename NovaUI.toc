@@ -1,0 +1,35 @@
+## Interface: 16001
+## Title: |cff4fc3f7Nova|rUI
+## Notes: Minimal, modern interface for WoW Forever.
+## Notes-trTR: WoW Forever için sade ve modern arayüz.
+## Author: Alvex Labs
+## Version: 1.14.0
+## SavedVariables: NovaUIDB, NovaUIProfiles
+## IconTexture: Interface\Icons\Spell_Arcane_Arcane04
+## Category: User Interface
+## X-License: MIT
+
+Core.lua
+Layout.lua
+Locale.lua
+Widgets.lua
+EditMode.lua
+Profiles.lua
+Modules\UnitFrames.lua
+Modules\CastBars.lua
+Modules\SwingTimer.lua
+Modules\ActionBars.lua
+Modules\XPBar.lua
+Modules\MicroMenu.lua
+Modules\Group.xml
+Modules\Group.lua
+Modules\Minimap.lua
+Modules\Tooltip.lua
+Modules\Auras.lua
+Modules\Chat.lua
+Modules\Bags.lua
+Modules\Skins.lua
+Modules\Nameplates.lua
+Modules\Alerts.lua
+Modules\Tracker.lua
+Config.lua

@@ -1,0 +1,14 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<!-- Spawned by SecureGroupHeaderTemplate. Size and click actions are set in
+	     the header's secure initialConfigFunction; visuals are built in Lua. -->
+	<Button name="NovaUI_PartyButtonTemplate" inherits="SecureUnitButtonTemplate" registerForClicks="AnyUp" virtual="true">
+		<Scripts>
+			<OnLoad inherit="append">NovaUI_InitGroupButton(self, "party")</OnLoad>
+		</Scripts>
+	</Button>
+	<Button name="NovaUI_RaidButtonTemplate" inherits="SecureUnitButtonTemplate" registerForClicks="AnyUp" virtual="true">
+		<Scripts>
+			<OnLoad inherit="append">NovaUI_InitGroupButton(self, "raid")</OnLoad>
+		</Scripts>
+	</Button>
+</Ui>

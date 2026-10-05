@@ -1,0 +1,18 @@
+Fonts bundled with NovaUI
+=========================
+
+These fonts are included because the English game client's fonts lack Turkish
+characters (ş ğ ı İ). Each is licensed under the SIL Open Font License 1.1:
+see OFL.txt in this folder for the full license text.
+
+Inter.ttf - Inter 18pt
+  Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org
+
+Roboto.ttf - Roboto
+  Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org
+
+OpenSans.ttf - Open Sans
+  Copyright 2020 The Open Sans Project Authors (https://github.com/googlefonts/opensans)
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org
